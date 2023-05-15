@@ -1,3 +1,4 @@
+<!--This page inserts a post into the data base and then redirects to view_tweets.php-->
 <?php
 $servername = "localhost";
 $username = "root";

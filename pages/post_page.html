@@ -1,7 +1,10 @@
+<!--this page lets the user post a tweet -->
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Post a Hiss</title>
+	
+	<!-- This is the css portion of the page-->
 	<style>
 		body {
 			background-color: #f2f2f2;
@@ -65,8 +68,11 @@
 	</style>
 </head>
 <body>
+	<!-- This is where all the content of the html page comes from -->
 	<div class="container">
 		<h1>Post a Hiss</h1>
+		
+		<!-- This form lets the user input their name and and tweet. It goes to the submit tweets page-->
 		<form action="submit_tweets.php" method="post">
 			<label for="name">Your Name:</label>
 			<input type="text" id="name" name="name" placeholder="Enter your name" required>
